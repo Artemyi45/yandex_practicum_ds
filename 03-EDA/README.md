@@ -25,4 +25,4 @@
 Python, Pandas, Matplotlib, Seaborn
 
 ## 🚀 Запуск
-Открыть `real_estate.ipynb` в Jupyter Notebook.
+Открыть `real_estate_data.ipynb` в Jupyter Notebook.
