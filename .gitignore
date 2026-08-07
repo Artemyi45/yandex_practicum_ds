@@ -2,3 +2,4 @@
 *.DS_Store
 Архив/
 .ipynb_checkpoints/
+.vscode
