@@ -14,22 +14,17 @@
 - **Итоговая модель:** RandomForestClassifier (Recall = 0.950, ROC-AUC = 0.949).
 - **Файл модели:** `best_heart_model.joblib`.
 
-## Структура проекта
-├── README.md
-├── requirements.txt
-├── app.py
-├── test.py
-├── Heart_project.ipynb
-├── best_heart_model.joblib
-├── heart_train.csv
-├── heart_test.csv
-├── heart_attack_predictions.csv
-├── heart_predictor/
-│   ├── __init__.py
-│   ├── data_loader.py
-│   ├── preprocessor.py
-│   └── model.py
-└── ТЗ.docx
+## 🏗 Структура проекта
+
+- README.md
+- requirements.txt
+- app.py
+- Heart_project.ipynb
+- best_heart_model.joblib
+- heart_attack_predictions.csv
+- data_loader.py
+- preprocessor.py
+- model.py
 
 ## Запуск
 pip install -r requirements.txt
@@ -43,12 +38,14 @@ POST /predict — загрузить CSV-файл с тестовыми данн
 {"predictions": [{"id": 1, "prediction": 0}, {"id": 2, "prediction": 1}]}
 
 ## Классы и методы
-DataLoader — load_train_data(path), load_test_data(path).
-DataPreprocessor — fit(X), transform(X), fit_transform(X).
-HeartAttackModel — fit(X, y), predict(X), predict_proba(X), evaluate(X, y).
+DataLoader — load_train_data(path), load_test_data(path).  
+DataPreprocessor — fit(X), transform(X), fit_transform(X).  
+HeartAttackModel — fit(X, y), predict(X), predict_proba(X), evaluate(X, y).  
 
-## Результаты
+## 📈 Результаты
+
 | Модель | Recall | Precision | F1 | ROC-AUC |
+|:---|---:|---:|---:|---:|
 | LogisticRegression | 0.811 | 0.368 | 0.506 | 0.525 |
 | DecisionTree | 0.907 | 0.357 | 0.512 | 0.504 |
 | RandomForest | 0.950 | 0.684 | 0.795 | 0.949 |
