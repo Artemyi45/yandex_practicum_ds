@@ -1,0 +1,5 @@
+pandas==1.2.4
+numpy==1.21.1
+matplotlib==3.3.4
+tensorflow==2.7.0
+Pillow==8.4.0
