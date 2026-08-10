@@ -11,7 +11,7 @@
 | 06 | [Линейные модели](06_linear_model/) | Регрессия + классификация | Pandas, Scikit-learn, Phik |
 | 07 | [Обучение с учителем](07_supervised_learning/) | Классификация + кластеризация | Pandas, Scikit-learn, Phik |
 | 09 | [ML в бизнесе](09_machine_learning_in_business/) | Регрессия + bootstrap | Pandas, Scikit-learn |
-| 11 | [Computer Vision](11_workshop_1/) | CV, ResNet50, регрессия | TensorFlow, Keras, PIL |
+| 11 | [Предсказание риска сердечного приступа](11_workshop_1/) | Классификация, FastAPI | Pandas, Scikit-learn, FastAPI |
 | 19 | [Компьютерное зрение](19_computer_vision/) | CV, ResNet50, регрессия | TensorFlow, Keras, PIL |
 | 20 | [Сборный проект 5](20_consolidation_project_5/) | Multimodal, ResNet-18 + TF-IDF | PyTorch, Scikit-learn |
 | 14 | [Продвинутый SQL](14_advanced_sql/) | SQL, PostgreSQL | SQL |
@@ -32,7 +32,7 @@
 | 08 | `08_consolidation_project_2` | HR-аналитика |
 | 09 | `09_machine_learning_in_business` | ML в бизнесе |
 | 10 | `10_basic_sql` | Базовый SQL |
-| 11 | `11_workshop_1` | Computer Vision |
+| 11 | `11_workshop_1` | Предсказание риска сердечного приступа (FastAPI) |
 | 12 | `12_big_data` | Система обработки больших данных |
 | 13 | `13_numerical_methods` | Численные методы |
 | 14 | `14_advanced_sql` | Продвинутый SQL |
